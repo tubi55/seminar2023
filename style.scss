@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import 'reset';
+
+main {
+	width: 100%;
+	padding: 10vw;
+
+	h1 {
+		font: normal 50px/1 'black han sans';
+		margin-bottom: 30px;
+		color: #fff;
+	}
+
+	video {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font: 14px/1.8;
+		color: #ddd;
+		margin-bottom: 20px;
+	}
+
+	strong {
+		color: orange;
+	}
+}
