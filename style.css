@@ -22,16 +22,20 @@ body {
 
 main {
   width: 100%;
-  padding: 10vw;
+  padding: 10vh 20vw;
 }
 main h1 {
-  font: normal 50px/1 "black han sans";
-  margin-bottom: 30px;
+  font: normal 60px/1 "black han sans";
+  margin-bottom: 80px;
   color: #fff;
+}
+main h2 {
+  color: orange;
+  margin-bottom: 20px;
 }
 main video {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 main p {
   font: 14px/1.8;
