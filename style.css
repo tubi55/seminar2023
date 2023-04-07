@@ -1,55 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #333;
 }
 
 ul,
 ol,
 li {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 body {
-  background: #333;
+	background: #333;
 }
 
 main {
-  width: 100%;
-  padding: 10vh 20vw;
+	width: 100%;
+	padding: 10vh 20vw;
 }
 main h1 {
-  font: normal 60px/1 "black han sans";
-  margin-bottom: 80px;
-  color: #fff;
+	font: normal 60px/1 'black han sans';
+	margin-bottom: 80px;
+	color: #fff;
 }
 main h2 {
-  color: orange;
-  margin-bottom: 20px;
+	color: orange;
+	margin-bottom: 20px;
 }
 main video {
-  width: 100%;
-  margin-bottom: 60px;
+	width: 100%;
+	margin-bottom: 60px;
 }
 main p {
-  font: 14px/1.8;
-  color: #ddd;
-  margin-bottom: 20px;
+	font: 14px/1.8;
+	color: #ddd;
+	margin-bottom: 20px;
 }
 main strong {
-  color: orange;
+	color: orange;
+}
+
+main ul {
+	margin-top: 50px;
+}
+main ul li {
+	color: orange;
+}
+
+main ul li a {
+	color: aqua;
 }
 
 @media screen and (max-width: 768px) {
-  main {
-    padding: 5vh 5vw;
-  }
+	main {
+		padding: 5vh 5vw;
+	}
 }
 
 /*# sourceMappingURL=style.css.map */
